@@ -11,15 +11,14 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:cardCornerRadius="60dp">
+        app:cardCornerRadius="60dp"
+        android:layout_margin="3dp"
+        >
         <ImageView
             android:id="@+id/ivPet"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:contentDescription="@string/app_name"
-
-            android:layout_margin="3dp"
-
             />
     </androidx.cardview.widget.CardView>
 
@@ -29,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" Nombre "
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cvPet"
         android:layout_marginStart="10dp"/>
